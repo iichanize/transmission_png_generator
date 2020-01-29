@@ -1,0 +1,2 @@
+# transmission_png_generator
+PythonでのGUI作成の練習として作ったものです
