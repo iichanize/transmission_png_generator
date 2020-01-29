@@ -1,4 +1,5 @@
 # transmission_png_generator
+![clearing-V2](https://user-images.githubusercontent.com/50661590/73384710-21459480-430f-11ea-881a-0263713a244a.PNG)  
  PythonでのGUI作成の練習として作ったものです.
 ## Requirements
  Python 3.7.1  
