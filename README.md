@@ -1,10 +1,10 @@
 # transmission_png_generator
  PythonでのGUI作成の練習として作ったものです.
 ## Requirements
- Python 3.7.1
- numpy 1.15.4
- wxPython 4.0.3
- OpenCV 3.4.5
+ Python 3.7.1  
+ numpy 1.15.4  
+ wxPython 4.0.3  
+ OpenCV 3.4.5  
 ## How to use
 - PNG画像をGUI上にドラッグアンドドロップ
 - 透過させたい場所をクリック
