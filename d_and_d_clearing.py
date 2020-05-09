@@ -45,6 +45,8 @@ class ImagePanel(wx.Panel):
 
     def cv2_clearing(self,RangeMin,RangeMax):
         cv_image = cv2.imread(self.image_path,-1)
+        if cv_image.ndim == 3:  # RGBならアルファチャンネル追加
+            cv_image = cv2.cvtColor(cv_image, cv2.COLOR_RGB2RGBA)
         self.cv_result = cv_image
         height,width,color = cv_image.shape
         for i in range(width):
